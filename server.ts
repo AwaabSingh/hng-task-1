@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // Hook up routes
-app.use('/api/users', UserRoute)
+app.use('/api/me', UserRoute)
 
 
 app.listen(4000, () => console.log('Server running on port 4000'));
